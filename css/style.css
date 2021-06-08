@@ -1,0 +1,510 @@
+
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:sans-serif;
+}
+h1{
+	color: black;
+	font-size:2.25rem;
+	text-align:center;
+	text-transform:uppercase;
+}h6{
+	color: #00d9ff;
+	font-size:1.125rem;
+	font-weight:500;
+	text-align:center;
+}
+p{
+	color:#a7a7a7;
+	line-height:1.8;
+	font-size:1rem;
+	text-align:center;
+}
+section{
+	padding-top:100px;
+	padding-bottom:50px;
+	background-color: #00bcd421;
+}
+.container{
+	width:1100px;
+	margin:auto;
+	overflow: hidden;
+	text-align: center;
+}
+.col-33{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.col-25{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.col-50{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+i{
+	font-size:2rem ;
+	color: yellow;
+}
+.content{
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:5px;
+	
+	
+}
+.btn{
+	padding: 10px 25px;
+	background-color: #00d9ff;
+	border-radius: 25px;
+	border: 0px;
+	font-size: .95rem;
+	text-transform: uppercase;
+	color: white;
+}
+/*========== header part =========== */
+header{
+	padding-top: 20px;
+	padding-bottom: 5px;
+	width: 100%;
+	position: fixed;
+	background-color: #00000045;
+	overflow: hidden;
+	z-index:99;
+}
+.company{
+	padding-left: 35px;
+	float: left;
+}
+.company img{
+	float: left;
+	display: block;
+}
+.company h2{
+	float: left;
+	color: rgb(250, 250, 250);
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin: 10px;
+}
+/* ==== menu bar start ==== */
+#main-menu{
+	padding-right: 35px;
+	float: right;
+	margin-top: 15px;
+}
+#mobile-icon{
+	display:none;
+
+}
+#main-menu ul{
+	list-style: none;
+}
+#main-menu ul li{
+	float: left;
+	margin: auto 10px;
+}
+#main-menu ul li a{
+	padding: 10px 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	font-size: .95rem;
+}
+#main-menu ul li a:hover{
+	background-color: black;
+	color: #00d9ff;
+}
+.active a{
+	background-color: black;
+	color: #5b98f3 !important;
+}
+/* ============home part ========*/
+#home{
+	background-image:url('../images/banner.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding-bottom:0px;
+}
+
+#home .author_text{
+	text-align:left;
+	margin-top:200px;
+}
+
+#home p{
+	text-align:left;
+	color:yellow; 
+	font-size:1rem; 
+	text-transform:uppercase;
+}
+#home h6{
+	text-align:left;
+	color:white; 
+	font-size:1.25rem; 
+	text-transform: uppercase;
+	
+}
+
+#home h2{
+	 color:yellow; 
+	 font-size:2.25rem; 
+	 text-transform: uppercase; 
+	 margin-bottom:20px;
+	
+}
+
+#home img{
+	height:450px; 
+	width:auto; 
+	float:right;
+
+
+}
+/*============= about me part========== */
+#progress .col-33{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+#progress h5{
+	text-align:left;
+	color:#6d6c6c;
+	text-transform:uppercase;
+}
+.progressbar{
+	height:10px;
+	width:100%;
+	background-color:#dcdcdc;
+	border-radius:5px;
+	margin:10px auto;
+	
+}
+.progress-achive{
+	height:10px;
+	width:100%;               
+	background-color:yellow;
+	border-radius:5px;
+	
+}
+
+/* ==========service part========= */
+#service{
+	background-image:url('../images/serve.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+#service .content{
+	background-color:#a7a7a791;
+	border-radius:5px;
+	padding:55px;
+}
+#service .content:hover{
+	background-color:#00d9ff;
+	
+}
+
+#service h3{
+	margin-top:25px;
+	margin-bottom:25px;
+	color:white;
+	text-transform:uppercase;
+}
+
+
+#service p{
+	font-size:.9rem;
+	color:white;
+	
+}
+/* ==========project part ===========*/
+#project img{
+	height: 250px;
+	width: 100%;
+}
+#project .content{
+	position:relative;
+	
+}
+ 
+#project .overlay{ 
+	position:absolute;
+	bottom:5px;
+	background-color:#00d9ff;
+	left:0px;
+	right:0px;
+	padding:15px;
+	color:white;
+	text-transform:uppercase;
+	display:none;
+}
+	
+#project .content:hover .overlay {
+	display:block;
+}
+
+/*========== review part========== */
+#review{
+	background-image:url('../images/stats.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#review h3{
+	font-size:2rem;
+	color:white;
+	margin:25px auto 30px;
+}
+#review h5{
+	font-size:1rem;
+	color:white;
+}
+
+
+/* ========contact part =========*/
+#contact{
+	background-image:url('../images/contact.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+#contact h1{
+	color:white;
+	margin-bottom:25px;
+	
+}
+
+#contact form input, #contact form textarea{
+	width:100%;
+	background-color: transparent;
+	font-size:1rem;
+	padding: 10px;
+	margin-bottom:15px;
+	border: 1px solid white;
+	box-sizing: border-box;
+	border-radius:5px;
+}
+
+#contact textarea{
+	height:150px;
+
+}
+
+#contact button{
+	border-radius: 10px;
+	padding: 15px 35px; 
+	background-color: #00d9ff;
+}
+
+#address{
+	margin-top: 50px;
+	
+}
+#address p{
+	font-size:.9rem;
+	color:white;
+	margin-top: 15px;
+}
+
+
+/*  =========== footer part============ */
+
+footer{
+	overflow:hidden;
+	background-color: white;
+	padding: 25px 0px;
+	
+}
+
+
+
+#copy-right{
+	float:left;
+	color:#484848;
+	margin:10px;
+}
+
+#social{
+	float:right;	
+}
+#social ul{
+	list-style:none;
+}
+
+#social ul li{
+	float: left;
+	margin:auto 15px;
+	height: 20px;
+	height: 20px;
+	width: 25px;
+	border: 2px solid #00d9ff80;
+	border-radius: 50%;
+	padding-top:5px;
+	text-align:center;
+}
+
+
+#social ul li:last-child{
+	margin-right:0px;
+
+}
+#social ul li a i{
+	font-size: .9rem;
+	color:#484848;
+}
+
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	background-color:#00d9ff;
+	height:30px;
+	width:40px;
+	text-align:center;
+	padding-top:10px;
+	display:none;
+}
+#upper i{
+	font-size:1rem;
+	color:white;
+}
+
+/*   =================Device view============ */
+@media(max-width:1100px){
+	.container{
+		width:100%;
+
+	}
+}
+@media(max-width:576px){
+	.col-25, .col-33, .col-50{
+		width:100%;
+
+	}
+	header{
+		background-color:#000000b8;
+	}
+	.company{
+		padding-left:15px;
+
+	}
+	.company img{
+		height:50px;
+	}
+	
+	/*  --- menu ber part--- */
+	#mobile-icon{
+		display:block;
+		position:absolute;
+		top:25px;
+		right:15px;
+	}
+	#main-menu{
+		width:100%;
+		padding-right:0;
+		margin-top:0;
+	}
+	
+	#main-menu ul li{
+		float:none;
+	}	
+	#main-menu ul li a{
+		display:block;
+	}
+	#main-menu ul li a:hover, .active a{
+		background-color:#00d9ff;
+		color:#191919 !important;
+		
+	}
+	
+	
+	
+	/*  --- home part--- */
+	#home .col-50{
+		width:50%;
+	}
+	#home img{
+		height:200px;
+	}
+	#home .author_text{
+		margin-top:25px;
+	}
+	#home p{
+		font-size:.75rem;
+		
+	}
+	#home h6{
+		font-size:.9rem;
+		
+	}
+	#home h2{
+		font-size:1.25rem;
+		margin-bottom:10px;
+		
+	}
+	#home .btn{
+		font-size:.75rem;
+		padding:7px 15px;
+	}
+	
+	/* ---  review part--- */
+	#review .col-25{
+		width:50%;
+		
+	}
+	#review .content{
+		margin-top:30px;
+	}
+	/* ---  footer part--- */
+	
+	#copy-right, #social{
+		float:none;
+		text-align:center;
+	}
+	
+	#social ul{
+		margin-left:25%;
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
