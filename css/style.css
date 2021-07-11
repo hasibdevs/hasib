@@ -1,9 +1,11 @@
-html {
-  scroll-behavior: smooth;
-}
+
+
 *{
 	padding:0;
 	margin:0;
+	
+  scroll-behavior: smooth;
+
 }
 body{
 	font-family:sans-serif;
