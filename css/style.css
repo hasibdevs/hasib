@@ -1,11 +1,13 @@
-
+html {
+  scroll-behavior: smooth;
+}
 *{
 	padding:0;
 	margin:0;
 }
 body{
 	font-family:sans-serif;
-	scroll-behavior: smooth;
+	
 }
 h1{
 	color: black;
